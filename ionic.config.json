@@ -1,0 +1,7 @@
+{
+  "name": "MobileCrossPlatform_W2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

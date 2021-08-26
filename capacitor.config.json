@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "MobileCrossPlatform_W2",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
