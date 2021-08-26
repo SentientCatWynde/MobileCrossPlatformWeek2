@@ -32,6 +32,8 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
+  // React.createElement("footerText", {style: { font-size: 'sm'} } );
+
   const App: React.FC = () => {
     // Conditional Rendering & useState
     const [ calculatedBMI, setCalculatedBMI ] = useState<number>(0);
@@ -150,13 +152,11 @@ import './theme/variables.css';
           </IonGrid>
         </IonContent>
         <IonFooter>
-          <IonToolbar color = 'warning'>
-            <IonTitle class = 'ion-text-sm-center'>
-            Kalkulator BMI untuk kelas LAB Week 2
-            </IonTitle>
+          <IonToolbar color = 'warning' class = 'ion-text-sm-center ion-padding-horizontal'>
+            Kalkulator BMI,  LAB Week 2 
           </IonToolbar>
         </IonFooter>
-      </IonPage>
+      </IonPage> 
     </IonApp>
     )
   };
